@@ -266,7 +266,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
-    background-position: center center;
+    background-position: top right;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -738,6 +738,12 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
+}
+ul.social-buttons li{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0px;
 }
 
 ul.social-buttons li a {
